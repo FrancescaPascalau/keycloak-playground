@@ -20,4 +20,10 @@ Adapters, an Admin Console, and an Account Management Console.
   login page. First, we need to acquire an access token from Keycloak by sending a POST request to this URL:
   `http://localhost:8080/auth/realms/SpringBootKeycloak/protocol/openid-connect/token`
 
-`docker run --name key-cloak -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:18.0.0 start-dev`
+### References
+
+https://betterprogramming.pub/how-to-authenticate-your-spring-boot-application-with-keycloak-1e9ccb5f2478
+
+https://medium.com/@bcarunmail/securing-rest-api-using-keycloak-and-spring-oauth2-6ddf3a1efcc2
+
+https://www.baeldung.com/spring-boot-keycloak
